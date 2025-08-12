@@ -1,0 +1,16 @@
+git status
+git pull origin main
+
+git add "enter file names"
+eg git add index.html about.html
+
+git add . "Adds all new/modified files"
+
+git commit -m "Enter Commit Message Here"
+
+git branch -M main
+git push -u origin main
+-M main renames the current branch to main (GitHub’s default).
+-u sets origin main as the default so future pushes can just be:
+git push
+
